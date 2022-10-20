@@ -71,3 +71,22 @@ button{
         flex-basis: 100%;
     }
 }
+footer{
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 0px;
+    height: 10px;
+    opacity: 0.4;
+}
+footer i{
+    padding: 5px;
+}
+@media(max-width:600px){
+    footer{
+        opacity: 0.2;
+    }
+}    

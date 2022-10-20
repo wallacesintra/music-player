@@ -36,7 +36,7 @@ const songs = [
         song: 'music/genius.mp3'
     }
 ]
-let counter = 1;
+let counter = 0;
 
 function load(){
     cover.src = songs[counter].albumCover;
@@ -93,3 +93,12 @@ playBtn.addEventListener('click',() => {
         playSong();
     }
 });
+
+
+// for(counter;counter<songs.length;counter++){
+//     const li = document.createElement('li');
+//     const node = document.createTextNode(songs[counter].title);
+//     li.appendChild(node);
+//     const ul = document.querySelector('ul');
+//     ul.appendChild(li);
+// }
