@@ -1,0 +1,73 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgba(31, 24, 61, 0.9);
+    color: white;
+}
+.kichwa{
+    width: 100%;
+    height: 7vh;
+    background: rgba(31, 24, 61);
+}
+.kichwa h3{
+    padding: 10px 20px;
+    font-weight: 600;
+}
+.musicContainer{
+    display: flex;
+    flex-direction: row;
+}
+.albumCover{
+    text-align: center;
+}
+.cover{
+    max-width: 350px;
+    margin: 15px 15px;
+}
+.music{
+    padding: 25px 25px;
+    text-align: center;
+}
+.musicDetails{
+    padding-left: 10px;
+}
+.musicDetails h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.musicDetails p{
+    font-size: 18px;
+    margin-bottom: 7px;
+    opacity: 0.8;
+}
+button{
+    font-size: 27px;
+    padding: 5px 10px;
+    color: white;
+    background-color: inherit;
+    border: 0;
+    outline: none;
+}
+@media(max-width: 600px){
+    .musicContainer{
+        flex-direction: column;
+    }
+    .albumCover{
+        flex-basis: 100%;
+        overflow: hidden;
+    }
+    .albumCover img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .cover{
+        margin: 0;
+    }
+    .music{
+        flex-basis: 100%;
+    }
+}

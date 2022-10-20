@@ -1,0 +1,13 @@
+design and create UI
+
+create an array of objects
+the object contain a cover(pic), title, audio
+ cover = array[i].cover
+ title = array[i].title
+ audio = array[i].audio
+
+play button, play function
+
+previous button, previous function
+
+next button, next function
